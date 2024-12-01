@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (currentUser && currentUser.username === username && currentUser.password === password) {
             localStorage.setItem('isAuthenticated', 'true');
-            window.location.href = 'auth.html';
+            window.location.href = 'https://adityasharma0903.github.io/authentication/';
         } else {
             alert('Invalid username or password');
         }
